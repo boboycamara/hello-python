@@ -1,3 +1,3 @@
-print("Hello, World")
-print("I am Ismael")
-print("I Love Programming.")
+print("Hello, World!")
+print("My name is {}. I am {} y/o."\
+.format("Ismael",16))
