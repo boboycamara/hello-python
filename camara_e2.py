@@ -1,19 +1,30 @@
 import sys
 
-print("Input Sustained Winds", "sys.argv.py[0]")
 
 
-if x <= 61
-print("Category", "Tropical Depression")
+Storm = sys.argv[1]
+Storm = int(sys.argv[1])
 
-if x <= 62 or x <= 88
-print("Category", "Tropical Storm")
 
-if x <= 89 or x <= 117
-print("Category", "Severe Tropical Storm")
 
-if x <= 118 or x <= 220
-print("Category", "Typhoon")
+if Storm == 61:
+   print ("Tropical Depression")
 
-if > 220
-("Category", "Super Typhoon")
+elif Storm == 62 or Storm >= 88:
+   print ("Category", "Tropical Storm")
+
+elif Storm == 89 or Storm >= 117:
+   print ("Category", "Severe Tropical Storm")
+
+elif Storm == 118 or Storm >= 220:
+   print ("Category", "Typhoon")
+
+elif Storm == 220:
+   print ("Category", "Super Typhoon")
+
+
+
+
+
+
+
