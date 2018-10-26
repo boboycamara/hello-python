@@ -10,16 +10,16 @@ Storm = int(sys.argv[1])
 if Storm == 61:
    print ("Tropical Depression")
 
-elif Storm == 62 or Storm >= 88:
+elif Storm == 62 or Storm <= 88:
    print ("Category", "Tropical Storm")
 
-elif Storm == 89 or Storm >= 117:
+elif Storm == 89 or Storm <= 117:
    print ("Category", "Severe Tropical Storm")
 
-elif Storm == 118 or Storm >= 220:
+elif Storm == 118 or Storm <= 220:
    print ("Category", "Typhoon")
 
-elif Storm == 220:
+elif Storm >= 220:
    print ("Category", "Super Typhoon")
 
 
